@@ -1,5 +1,5 @@
 *.py[cod]
-
+*.css
 # C extensions
 *.so
 
@@ -34,3 +34,4 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
