@@ -1,0 +1,19 @@
+{% load compressed static %}
+<!doctype html>
+<html>
+  <head>
+    <title>{% block title %}Django Pipeline Tutorial{% endblock %}</title>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    {% compressed_css 'main' %}
+  </head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1>Tutorial de django-pipeline</h1>
+        {% block content %}{% endblock %}
+      </div>
+    </div>
+  </div>
+</body>
+</html>
